@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'GZZCalendarTool_Example' do
+  pod 'GZZCalendarTool', :path => '../'
+
+  target 'GZZCalendarTool_Tests' do
+    inherit! :search_paths
+
+  end
+end

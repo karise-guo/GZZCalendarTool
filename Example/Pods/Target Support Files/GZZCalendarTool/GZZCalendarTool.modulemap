@@ -1,0 +1,6 @@
+framework module GZZCalendarTool {
+  umbrella header "GZZCalendarTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GZZCalendarTool (0.1.0)
+
+DEPENDENCIES:
+  - GZZCalendarTool (from `../`)
+
+EXTERNAL SOURCES:
+  GZZCalendarTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GZZCalendarTool: cae7fe38bdac4e6ac81dd28d8540306365c1b86f
+
+PODFILE CHECKSUM: 44b5b05c6284f5be1d611af22429d97b54823cd2
+
+COCOAPODS: 1.5.3
