@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/GZZCalendarTool.svg?style=flat)](https://cocoapods.org/pods/GZZCalendarTool)
 [![Platform](https://img.shields.io/cocoapods/p/GZZCalendarTool.svg?style=flat)](https://cocoapods.org/pods/GZZCalendarTool)
 
+![](https://ws4.sinaimg.cn/large/006tNbRwgy1fwsnderkz2j31640j2acr.jpg)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
