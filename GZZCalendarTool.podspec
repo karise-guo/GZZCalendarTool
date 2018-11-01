@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'GZZCalendarTool'
-  s.version                 = '0.1.1'
+  s.version                 = '0.1.2'
   s.summary                 = '获取日历的节日、阴历、二十四节气'
   s.homepage                = 'https://github.com/Jonzzs/GZZCalendarTool'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
