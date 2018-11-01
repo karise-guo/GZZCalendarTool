@@ -16,7 +16,7 @@
  @param date 日期
  @return 节日
  */
-+ (NSString *)holiDayFromDate:(NSDate *)date;
++ (nullable NSString *)holidayFromDate:(NSDate *)date;
 
 /**
  获取阴历日期
@@ -24,7 +24,7 @@
  @param date 日期
  @return 阴历
  */
-+ (NSString *)lunarFromDate:(NSDate *)date;
++ (nullable NSString *)lunarFromDate:(NSDate *)date;
 
 /**
  获取二十四节气
@@ -32,6 +32,6 @@
  @param date 日期
  @return 节气
  */
-+ (NSString *)solarTermFromDate:(NSDate *)date;
++ (nullable NSString *)solarTermFromDate:(NSDate *)date;
 
 @end

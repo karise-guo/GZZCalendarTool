@@ -25,7 +25,7 @@ pod 'GZZCalendarTool'
  @param date 日期
  @return 节假日
  */
-+ (NSString *)holiDayFromDate:(NSDate *)date;
++ (nullable NSString *)holidayFromDate:(NSDate *)date;
 
 /**
  获取阴历日期
@@ -33,7 +33,7 @@ pod 'GZZCalendarTool'
  @param date 日期
  @return 阴历
  */
-+ (NSString *)lunarFromDate:(NSDate *)date;
++ (nullable NSString *)lunarFromDate:(NSDate *)date;
 
 /**
  获取二十四节气
@@ -41,7 +41,7 @@ pod 'GZZCalendarTool'
  @param date 日期
  @return 节气
  */
-+ (NSString *)solarTermFromDate:(NSDate *)date;
++ (nullable NSString *)solarTermFromDate:(NSDate *)date;
 ```
 
 ## Usage
@@ -56,10 +56,10 @@ NSLog(@"%@", [GZZCalendarTool lunarFromDate:[formatter dateFromString:@"2018-11-
 NSLog(@"%@", [GZZCalendarTool solarTermFromDate:[formatter dateFromString:@"2018-10-23"]]); // 霜降
 NSLog(@"%@", [GZZCalendarTool solarTermFromDate:[formatter dateFromString:@"2018-11-07"]]); // 立冬
 
-NSLog(@"%@", [GZZCalendarTool holiDayFromDate:[formatter dateFromString:@"2018-05-13"]]); // 母亲节
-NSLog(@"%@", [GZZCalendarTool holiDayFromDate:[formatter dateFromString:@"2018-06-17"]]); // 父亲节
-NSLog(@"%@", [GZZCalendarTool holiDayFromDate:[formatter dateFromString:@"2018-11-29"]]); // 感恩节
-NSLog(@"%@", [GZZCalendarTool holiDayFromDate:[formatter dateFromString:@"2018-10-01"]]); // 国庆节
+NSLog(@"%@", [GZZCalendarTool holidayFromDate:[formatter dateFromString:@"2018-05-13"]]); // 母亲节
+NSLog(@"%@", [GZZCalendarTool holidayFromDate:[formatter dateFromString:@"2018-06-17"]]); // 父亲节
+NSLog(@"%@", [GZZCalendarTool holidayFromDate:[formatter dateFromString:@"2018-11-29"]]); // 感恩节
+NSLog(@"%@", [GZZCalendarTool holidayFromDate:[formatter dateFromString:@"2018-10-01"]]); // 国庆节
 ```
 
 

@@ -27,10 +27,10 @@
     NSLog(@"%@", [GZZCalendarTool solarTermFromDate:[formatter dateFromString:@"2018-10-23"]]);
     NSLog(@"%@", [GZZCalendarTool solarTermFromDate:[formatter dateFromString:@"2018-11-07"]]);
     
-    NSLog(@"%@", [GZZCalendarTool holiDayFromDate:[formatter dateFromString:@"2018-05-13"]]);
-    NSLog(@"%@", [GZZCalendarTool holiDayFromDate:[formatter dateFromString:@"2018-06-17"]]);
-    NSLog(@"%@", [GZZCalendarTool holiDayFromDate:[formatter dateFromString:@"2018-11-29"]]);
-    NSLog(@"%@", [GZZCalendarTool holiDayFromDate:[formatter dateFromString:@"2018-10-01"]]);
+    NSLog(@"%@", [GZZCalendarTool holidayFromDate:[formatter dateFromString:@"2018-05-13"]]);
+    NSLog(@"%@", [GZZCalendarTool holidayFromDate:[formatter dateFromString:@"2018-06-17"]]);
+    NSLog(@"%@", [GZZCalendarTool holidayFromDate:[formatter dateFromString:@"2018-11-29"]]);
+    NSLog(@"%@", [GZZCalendarTool holidayFromDate:[formatter dateFromString:@"2018-10-01"]]);
 }
 
 @end
